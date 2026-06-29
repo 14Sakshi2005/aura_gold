@@ -23,26 +23,9 @@ Advanced counterfeit operations bypass traditional acid touchstone tests by enca
 
 Instead of forcing a lightweight asset through a heavy-metal test framework, Aura Gold programmatically forks its testing pipelines based on the asset's initial mass metrics[cite: 1]:
 
-[ Appraiser Inputs Weight & Karat ]
-                                  │
-               ┌──────────────────┴──────────────────┐
-               ▼                                     ▼
-     [ Weight ≥ 5.0g ]                       [ Weight < 5.0g ]
-     (Heavy Ornaments)                      (Lightweight Items)
-     ├── 1. Multi-Angle CV Scan              ├── 1. Macro Bounding-Box Scan
-     └── 2. Acoustic FFT Analysis            └── 2. Chromatic Flash Analysis
-               │                                     │
-               └──────────────────┬──────────────────┘
-                                  ▼
-                    [ Embedded TinyML Layer ]
-                (One-Class SVM Anomaly Evaluation)
-                                  │
-               ┌──────────────────┴──────────────────┐
-               ▼                                     ▼
-         Score > 35                             Score ≤ 35
-      🚨 RISK FLAG 🚨                       ✅ PASS / VERIFIED
+<img width="726" height="449" alt="Screenshot 2026-06-29 at 23 07 36" src="https://github.com/user-attachments/assets/df44ec80-189c-4613-b831-ddefd0d42257" />
 
-      ### 🧬 Dual-Pipeline Breakdown
+### 🧬 Dual-Pipeline Breakdown
 
 #### 🛡️ Pipeline Alpha: Heavy Assets ($\ge$ 5.0 Grams)
 Targeted at catching density-matching Tungsten cores hidden inside bangles, coins, or heavy chains[cite: 1].
@@ -60,30 +43,7 @@ Targeted at catching base metals (copper, brass, iron) in tiny items like 1-gram
 
 The framework ensures complete separation of concerns and runs natively via low-level machine code optimizations[cite: 1]:
 
-   [ Appraiser Input: Weight + Karat ]
-                   │
-                   ▼
-     [ Initialize Density Thresholds ]
-                   │
-         ⚖️ Is Weight ≥ 5.0g?
-           ╱           ╲
-         YES            NO
-         ╱               ╲
-[ Heavy Pipeline ]   [ Lightweight Pipeline ]
-├── Multi-Angle CV   ├── Volumetric Photo
-└── Acoustic FFT     └── Chromatic Flash
-         ╲               ╱
-          ▼             ▼
-     [ Native INT8 Feature Extraction ]
-                   │
-                   ▼
-      [ Local One-Class SVM Engine ]
-                   │
-         📊 Final Risk Score Evaluation
-           ╱           ╲
-     Score > 35       Score ≤ 35
-       ╱                   ╲
-🚨 [ RISK FLAG ]     ✅ [ PASS / VERIFIED ]
+   <img width="400" height="524" alt="Screenshot 2026-06-29 at 23 10 07" src="https://github.com/user-attachments/assets/4c31ffa8-7ab4-4fc5-9d7b-2a58b915e78b" />
 
 ###  The Offline-First Tech Stack
 *   **Front-End UI & Core Shell:** Flutter (Dart). Compiles natively to high-efficiency arm64 machine code for low-end Android and iOS devices, providing fast, low-level access to microphone and camera hardware components[cite: 1].
